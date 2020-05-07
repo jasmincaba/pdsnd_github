@@ -10,6 +10,7 @@ print ('\nHello! Let\'s explore some US bikeshare data! \n \n')
 print ('-'*80)
 
 def get_filters():
+    """Filter for users to choose a city, month and day"""
     while True:
         cities = ["chicago", "new york city", "washington"]
         print ("We have data for these cities: Chicago, New York City and Washington")
